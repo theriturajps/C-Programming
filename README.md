@@ -47,8 +47,8 @@ int number;
     ```
     
     
-    ### conditional statement
     
+    ### conditional statement
     ```
     condition ? expresion-if-true : expresion-if-false
     ```
