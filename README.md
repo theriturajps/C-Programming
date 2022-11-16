@@ -21,3 +21,27 @@
 >= -> less then or equal to
 != -> not equal to
 ```
+
+### else if 
+```
+int number;
+    printf("Enter the number : ");
+    scanf("%d", &number);
+
+    if (number == 1)
+    {
+        printf("this is 1");
+    }
+    else if (number == 2)
+    {
+        printf("this is 2");
+    }
+    else if (number == 3)
+    {
+        printf("this is 3");
+    }
+    else
+    {
+        printf("Its not 1, 2, 3");
+    }
+    ```
