@@ -1,8 +1,8 @@
 # C-Programming
 
-riturajps.in
+## riturajps.in
 
-learning c in my college and at home and then uploading here
+### learning c in my college and at home and then uploading here
 
 
 ### priority in experesion
