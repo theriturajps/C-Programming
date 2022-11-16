@@ -3,11 +3,18 @@
 // Created by riturajps.in | @RituRajPS
 int main()
 {
-    int square;
-    printf("Enter the Number :");
-    scanf("%d", &square);
-    int sqr = pow(square, 2);
-    printf("The square of the given number is %d", sqr);
+    float base, power, sqr;
+
+    printf("Enter the base :");
+    scanf("%f", &base);
+
+    printf("Enter the power:");
+    scanf("%f", &power);
+
+    sqr = pow(base, power);
+
+    printf("Enter the Square : %f", sqr);
+
     return 0;
     // @RituRajPS
 }
