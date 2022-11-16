@@ -13,7 +13,7 @@ int main()
 
     sqr = pow(base, power);
 
-    printf("Enter the Square : %f", sqr);
+    printf("The Square Is : %f", sqr);
 
     return 0;
     // @RituRajPS
