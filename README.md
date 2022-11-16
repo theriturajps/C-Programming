@@ -45,3 +45,10 @@ int number;
         printf("Its not 1, 2, 3");
     }
     ```
+    
+    
+    ### conditional statement
+    
+    ```
+    condition ? expresion-if-true : expresion-if-false
+    ```
