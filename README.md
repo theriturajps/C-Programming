@@ -12,3 +12,12 @@
 2nd -> + -
 3rd -> =
 ```
+
+```
+== -> equal
+>= -> greater then or equal to
+<  -> 
+>  ->
+>= -> less then or equal to
+!= -> not equal to
+```
