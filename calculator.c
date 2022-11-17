@@ -37,7 +37,7 @@ int main() {
       break;
 
       case 'x':
-printf("Power of : %f", pow(num1,num2));
+        printf("Power of : %f", pow(num1,num2));
       break;
 
       default:
