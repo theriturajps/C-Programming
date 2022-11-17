@@ -1,32 +1,49 @@
-#include <stdio.h>
-// Created by riturajps.in | @RituRajPS
-int main() {
+#include <stdio.h>  
+#include <math.h>  
 
-  char op;
-  double first, second;
-  printf("Enter an operator (+, -, *, /): ");
-  scanf("%c", &op);
-  printf("Enter two operands: ");
-  scanf("%lf %lf", &first, &second);
+int main() {  
+  
+//RituRajPS
+   float num1, num2;
+   char op_math;
+  
+  printf("Enter the operation +,-,*,/,x:");
+  scanf("%c", &op_math);
 
-  switch (op) {
-    case '+':
-      printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
-      break;
-    case '-':
-      printf("%.1lf - %.1lf = %.1lf", first, second, first - second);
-      break;
-    case '*':
-      printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
-      break;
-    case '/':
-      printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
-      break;
-    // operator doesn't match any case constant
-    default:
-      printf("Error! operator is not correct");
-  }
+ printf("Enter the 1st Number: ");
+  scanf("%f", &num1);
 
-  return 0;
-   // @RituRajPS
+ printf("Enter the 2nd Number: ");
+  scanf("%f", &num2);
+
+ // int square = pow(num1,num2);
+  
+  switch(op_math)
+    {
+      case '+' :
+        printf("Sum is : %f", num1 + num2);
+      break;
+
+      case '-' :
+        printf("Sub is : %f", num1 - num2);
+      break;
+
+      case '*' :
+        printf("Multiply is : %f", num1 * num2);
+      break;
+
+      case '/' :
+        printf("Divide is : %f", num1 / num2);
+      break;
+
+      case 'x':
+printf("Power of : %f", pow(num1,num2));
+      break;
+
+      default:
+      printf("Option does not meet");    
+        break;
+    }
+  
+    return 0;  
 }
