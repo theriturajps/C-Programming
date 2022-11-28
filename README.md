@@ -61,7 +61,7 @@ Unary	         + - ! ~ ++ - -
                 (type)* & sizeof	Right to left
 Multiplicative	* / %	                Left to right
 Additive	+ -	                Left to right
-Shift	        << >>	                        Left to right
+Shift	        << >>	                Left to right
 Relational	< <= > >=	        Left to right
 Equality	== !=	                Left to right
 Bitwise AND	&	                Left to right
